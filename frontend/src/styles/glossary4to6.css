@@ -1,0 +1,56 @@
+.glossary4to6-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(236, 150, 92);
+  color: white;
+  letter-spacing: 0.5vw;
+  font-family: "Signika", sans-serif;
+  height: 12vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  position: sticky;
+  top: 0;
+}
+.glossary4to6-heading h1 {
+  font-size: 3.2vh;
+}
+
+.glossary4to6-listings h2 {
+  font-size: 2.2vh;
+  margin-left: 5vw;
+  color: rgb(58, 57, 56);
+}
+.glossary4to6-listings p {
+  font-size: 2vh;
+  font-family: "Signika", sans-serif;
+  color: rgb(119, 118, 117);
+}
+.glossary4to6-heading img {
+  height: 4vh;
+  cursor: pointer;
+}
+
+.picAndDescription {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(253, 250, 250);
+  width: 90vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 12vh;
+}
+.picAndDescription img {
+  height: 7vh;
+}
+.close-icon img {
+  height: 7vh;
+  position: fixed;
+  top: 90vh;
+  right: 5vw;
+  cursor: pointer;
+}

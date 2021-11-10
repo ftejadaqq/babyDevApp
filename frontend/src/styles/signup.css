@@ -1,0 +1,87 @@
+.signup-page {
+  display: flex;
+}
+
+.signup-container {
+  background-color: rgb(86, 105, 171);
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+}
+.signup-heading {
+  padding-top: 10vh;
+  padding-bottom: 3vh;
+  font-size: 3vh;
+  letter-spacing: 0.25vh;
+  color: white;
+  font-family: "Signika", sans-serif;
+}
+.signup-form {
+  width: 80vw;
+  margin: auto;
+  color: rgb(58, 57, 56);
+}
+
+.signup-form-item input,
+.signup-form-item select {
+  height: 8vh;
+  width: 70vw;
+  font-size: 2.5vh;
+  margin-bottom: 2vh;
+  background-color: white;
+  border: 1px solid rgb(232, 231, 233);
+  border-radius: 5px;
+  font-family: "Signika", sans-serif;
+}
+.signup-form-item input {
+  padding-right: 7vw;
+  padding-left: 3vw;
+}
+.signup-form-item select {
+  padding-left: 3vw;
+}
+/* to avoid using js for the default select dropdown I had to change inputs to white too and opacity to 1 for selects */
+::placeholder {
+  color: rgb(58, 57, 56);
+  opacity: 1;
+  background-color: white;
+  /* for firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(58, 57, 56);
+  background-color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(58, 57, 56);
+  background-color: white;
+}
+.signup-form-item:nth-child(2) {
+  display: flex;
+}
+
+.signup-submit-button {
+  margin-top: 2vh;
+  width: 60vw;
+  height: 7vh;
+  padding: 2vw;
+  /* background-color: rgb(255, 206, 0); */
+  background-color: rgb(252, 234, 99);
+  border: none;
+  border-radius: 24px;
+  color: rgb(58, 57, 56);
+  font-size: 2vh;
+  letter-spacing: 0.25vh;
+  cursor: pointer;
+}
+.signup-go-to-login {
+  color: rgb(252, 234, 99);
+  font-size: 2vh;
+  width: 50vw;
+  margin: auto;
+  font-family: "Signika", sans-serif;
+  cursor: pointer;
+}

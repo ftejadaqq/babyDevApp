@@ -1,0 +1,40 @@
+.account-heading {
+  text-align: center;
+  color: rgb(58, 57, 56);
+}
+.account-heading h1 {
+  font-size: 3vh;
+  font-family: "Signika", sans-serif;
+}
+.account-item {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  height: 12vh;
+  margin: auto;
+  font-size: 2vh;
+  color: rgb(58, 57, 56);
+  border-bottom: 1px solid rgba(252, 234, 99);
+  font-family: "Signika", sans-serif;
+}
+/* space-between left in case I add in EDIT buttons */
+
+.logout {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  color: rgb(83, 82, 81);
+  background-color: rgb(252, 234, 99);
+  width: 30vw;
+  height: 5vh;
+  font-size: 1.5vh;
+  letter-spacing: 0.5vw;
+  border-radius: 24px;
+  font-family: "Signika", sans-serif;
+  cursor: pointer;
+}
+.edit {
+  color: rgb(255, 206, 0);
+}

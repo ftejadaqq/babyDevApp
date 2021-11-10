@@ -1,0 +1,71 @@
+.home-header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.home-header h1 {
+  color: rgb(58, 57, 56);
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  background-color: rgb(86, 105, 171);
+}
+.home-info {
+  height: 45vh;
+  width: 85vw;
+  padding-top: 5vh;
+  color: rgba(255, 255, 255, 0.945);
+  line-height: 3vh;
+}
+.home-info li {
+  font-size: 2vh;
+  margin-bottom: 0.5vh;
+}
+.home-info-pic-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-info-pic-caption img {
+  height: 12vh;
+}
+.home-info h2 {
+  text-align: center;
+  font-size: 5vh;
+  line-height: 7vh;
+  letter-spacing: 0.25vh;
+  font-family: "Signika", sans-serif;
+  margin-bottom: 7vh;
+}
+.home-info p {
+  font-size: 1.5vh;
+  margin: 0;
+}
+.home-login-signup {
+  margin-top: 5vh;
+  height: 35vh;
+}
+.home-login-signup button {
+  background-color: white;
+  width: 70vw;
+  height: 8vh;
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+  border-radius: 5px;
+  color: rgb(58, 57, 56);
+  letter-spacing: 0.25vh;
+  border: none;
+  font-size: 2vh;
+  font-weight: bold;
+  font-family: "Signika", sans-serif;
+  cursor: pointer;
+}

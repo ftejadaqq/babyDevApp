@@ -1,0 +1,25 @@
+.timeline-info-heading {
+  text-align: center;
+  color: rgb(58, 57, 56);
+}
+.timeline-info-heading h1 {
+  font-size: 3vh;
+  font-family: "Signika", sans-serif;
+}
+.timeline-info-items {
+  width: 90vw;
+  margin: auto;
+}
+.timeline-info-item {
+  border-bottom: 1px solid rgba(252, 234, 99);
+}
+.timeline-info-items h2 {
+  font-family: "Signika", sans-serif;
+  font-size: 2vh;
+  color: rgb(58, 57, 56);
+}
+.timeline-info-items p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5vh;
+  color: rgb(58, 57, 56);
+}
